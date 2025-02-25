@@ -21,3 +21,51 @@
 .strike-text {
   text-decoration: line-through
 }
+
+
+
+
+
+
+.task-tracker {
+  margin: 2rem 0;
+}
+
+.task-tracker .progress {
+  background-color: #e0f2f1;
+  height: 15px;
+}
+
+.task-tracker .determinate {
+  height: 15px;
+}
+
+.task-tracker .stats {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.task-tracker .stats .completed {
+  color: #26a69a;
+  font-weight: bold;
+}
+
+.task-tracker .stats .total {
+  color: #26a69a;
+  font-weight: bold;
+}
+
+.strike-text {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.delete-button {
+  cursor: pointer;
+  color: #e57373;
+  transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+  color: #d32f2f;
+}
